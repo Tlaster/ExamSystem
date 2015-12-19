@@ -53,7 +53,7 @@ namespace ExamSystem.Core
             {
                 throw new Exception("Please check the ChoiceCount or JudgmentCount");
             }
-            return new ExamModel(ChoiceList.OrderBy(a => Guid.NewGuid()).ToList(), JudgmentList.OrderBy(a => Guid.NewGuid()).ToList());
+            return new ExamModel(ChoiceList.OrderBy(a => Guid.NewGuid()).ToList().GetRange(0,ChoiceCount), JudgmentList.OrderBy(a => Guid.NewGuid()).ToList().GetRange(0,JudgmentCount));
         }
     }
 }
