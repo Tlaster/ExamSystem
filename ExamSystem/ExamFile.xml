@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Exam>
+  <Choice Title="Choice 1">
+    <Selection>Selection 1</Selection>
+    <Selection IsAnswer="true">Selection 2</Selection>
+    <Selection>Selection 3</Selection>
+    <Selection>Selection 4</Selection>
+  </Choice>
+  <Choice Title="Choice 2">
+    <Selection>Selection 1</Selection>
+    <Selection>Selection 2</Selection>
+    <Selection>Selection 3</Selection>
+    <Selection IsAnswer="true">Selection 4</Selection>
+  </Choice>
+  <Choice Title="Choice 3">
+    <Selection>Selection 1</Selection>
+    <Selection IsAnswer="true">Selection 2</Selection>
+    <Selection>Selection 3</Selection>
+    <Selection>Selection 4</Selection>
+  </Choice>
+  <Choice Title="Choice 4">
+    <Selection>Selection 1</Selection>
+    <Selection>Selection 2</Selection>
+    <Selection IsAnswer="true">Selection 3</Selection>
+    <Selection>Selection 4</Selection>
+  </Choice>
+  <Choice Title="Choice 5">
+    <Selection IsAnswer="true">Selection 1</Selection>
+    <Selection>Selection 2</Selection>
+    <Selection>Selection 3</Selection>
+    <Selection>Selection 4</Selection>
+  </Choice>
+  <Judgment>Judgment 1</Judgment>
+  <Judgment IsTrue="true">Judgment 2</Judgment>
+  <Judgment>Judgment 3</Judgment>
+  <Judgment IsTrue="true">Judgment 4</Judgment>
+  <Judgment>Judgment 5</Judgment>
+</Exam>
